@@ -3,10 +3,39 @@
     <head>
         <meta lang="en">
         <meta charset="utf-8">
-        <link>
-        <link>
+        <link rel="stylesheet" href="/style.css">
+        <script src="/script.js" defer></script>
     </head>
     <body>
         <h1>Calculator</h1>
+        <section class="calculator">
+
+            <div> <input type="text" class="screen"></div>
+
+            <div class="button-box">
+
+            <input class="buttons" type="button" value="C" onclick="clr()">
+            <input class="buttons" type="button" value="/" onclick="dis('/')">
+            <input class="buttons" type="button" value="*" onclick="dis('*')">
+            <input class="buttons" type="button" value="," onclick="dis(',')">
+            <input class="buttons" type="button" value="7" onclick="dis('7')">
+            <input class="buttons" type="button" value="8" onclick="dis('8')">
+            <input class="buttons" type="button" value="9" onclick="dis('9')">
+            <input class="buttons" type="button" value="-" onclick="dis('-')">
+            <input class="buttons" type="button" value="4" onclick="dis('4')">
+            <input class="buttons" type="button" value="5" onclick="dis('5')">
+            <input class="buttons" type="button" value="6" onclick="dis('6')">
+            <input class="buttons" type="button" value="+" onclick="dis('+')">
+            <input class="buttons" type="button" value="1" onclick="dis('1')">
+            <input class="buttons" type="button" value="2" onclick="dis('2')">
+            <input class="buttons" type="button" value="3" onclick="dis('3')">
+            <input class="buttons" type="button" value="0" onclick="dis('0')">            
+
+            </div>
+
+            <input class="enter" type="button" value="=" onclick="solve()">
+
+        </section>
+        
     </body>
 </html>
